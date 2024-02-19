@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image {
+    height: 650px;
+    width: 110px;
+    background: url(wave100.png);
+    /* background-size: 400px 200px; */
+    background-repeat: repeat-x;
+    animation: flow 2s linear infinite;
+    position: absolute;
+    /* clip-path: polygon(50% 0%, 76% 76%, 50% 100%, 20% 70%); */
+}
+
+#diamond{
+    width:112px;
+    height:150px;
+    background-color: white;
+    /* border: 5px solid white; */
+    /* fill: white; */
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 50% 70%, 0 35%, 0 0);
+    clip-path: polygon(50% 0%, 100% 70%, 50% 100%, 0 70%);
+}
+
+@keyframes flow {
+    0% {
+        background-position: -1200px 200px;
+    }
+    100% {
+        background-position: 0px 200px;
+    }
+}

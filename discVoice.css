@@ -1,0 +1,70 @@
+/*＊＊＊＊＊カスタムCSS＊＊＊＊＊*/
+/*アバターの大きさと明るさを決めるよ　あと線を消してるよ*/
+img[class^="Voice_avatar"] {
+    height:40px !important;
+    width:40px !important;
+    border-radius:10px !important;
+    filter: brightness(70%);
+    }
+    /*しゃべったときの状態の設定してるよ*/
+    img[class*="Speaking"] {
+    border-color:rgba(0,255,0,0.7) !important;
+    position:relative;
+    animation-name: speak-now;
+    animation-duration: 5000ms;
+    animation-fill-mode:forwards;
+    filter: brightness(100%) ;
+    }
+    /*しゃべってるときのアニメーションの設定だよ*/
+    @keyframes speak-now {
+    0% { bottom:0px; }
+    5% { bottom:10px; }
+    10% { bottom:0px; }
+    15% { bottom:10px; }
+    20% { bottom:0px; }
+    25% { bottom:10px; }
+    30% { bottom:0px; }
+    35% { bottom:10px; }
+    40% { bottom:0px; }
+    45% { bottom:10px; }
+    50% { bottom:0px; }
+    55% { bottom:10px; }
+    60% { bottom:0px; }
+    65% { bottom:10px; }
+    70% { bottom:0px; }
+    75% { bottom:10px; }
+    80% { bottom:0px; }
+    85% { bottom:10px; }
+    90% { bottom:0px; }
+    95% { bottom:10px; }
+    100% { bottom:0px; }
+    }
+    /* アバター及びネームタグ表示位置調整だよ*/
+    li[class^="Voice_voiceState"]{
+    width: 70px;
+    height: 50px;
+    position: static;
+    display: flex;
+    }
+    div[class*="user"]{
+    padding: 4px 5px 0px !important;
+    border-radius: 4px;
+    display: inline-block;
+    }
+    span[class^="Voice_name"]{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    line-height: 20px !important;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7) !important;
+    padding: 5px !important;
+    }
+    body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    /*＊＊＊＊＊カスタムCSS終わり＊＊＊＊＊*/
