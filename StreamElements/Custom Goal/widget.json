@@ -552,7 +552,7 @@
     "titleColor": {
       "type": "colorpicker",
       "label": "Title font color",
-      "value": "rgb(255, 255, 255)",
+      "value": "rgba(255, 255, 255, 1)",
       "group": "Text Settings"
     },
     "titleSize": {
@@ -564,9 +564,9 @@
     "displayBar": {
       "type": "dropdown",
       "label": "Display bar",
-      "value": "block",
+      "value": "flex",
       "options": {
-        "block": "Yes",
+        "flex": "Yes",
         "none": "No"
       },
       "group": "Styling"
@@ -584,19 +584,19 @@
     "backgroundColor": {
       "type": "colorpicker",
       "label": "Background color",
-      "value": "rgb(55, 55, 55)",
+      "value": "rgba(255, 255, 255, 1)",
       "group": "Styling"
     },
     "barColor1": {
       "type": "colorpicker",
       "label": "Bar color",
-      "value": "rgb(63, 63, 195)",
+      "value": "rgba(255, 255, 255, 1)",
       "group": "Styling"
     },
     "barColor2": {
       "type": "colorpicker",
       "label": "Bar color2",
-      "value": "rgb(85, 33, 195)",
+      "value": "rgba(255, 255, 255, 1)",
       "group": "Styling"
     },
     "divider": {
@@ -608,19 +608,19 @@
     "dividerColor": {
       "type": "colorpicker",
       "label": "Divider font color",
-      "value": "rgb(255, 255, 255)",
+      "value": "rgba(255, 255, 255, 1)",
       "group": "Styling"
     },
     "valueColor": {
       "type": "colorpicker",
       "label": "Current value font color",
-      "value": "rgb(255, 255, 255)",
+      "value": "rgba(255, 255, 255, 1)",
       "group": "Styling"
     },
     "goalColor": {
       "type": "colorpicker",
       "label": "Goal font color",
-      "value": "rgb(255, 255, 255)",
+      "value": "rgba(255, 255, 255, 1)",
       "group": "Styling"
     },
     "labelSize": {
