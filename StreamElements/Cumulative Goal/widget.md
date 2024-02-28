@@ -1,1 +1,0 @@
-[StreamElements](https://github.com/StreamElements/widgets/tree/master/CumulativeGoal)
