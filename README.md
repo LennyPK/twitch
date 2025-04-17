@@ -119,8 +119,3 @@ Game-specific integrations and overlays
 - Streamer.bot
 - Discord Developer Portal
 - Twitch Developer Console
-
-## License
-
-This project is for personal use and educational purposes. Please respect Twitch's terms of service and community guidelines when implementing these tools.
-
